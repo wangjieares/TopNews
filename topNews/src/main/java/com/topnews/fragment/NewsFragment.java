@@ -42,11 +42,11 @@ public class NewsFragment extends Fragment {
 		this.activity = activity;
 		super.onAttach(activity);
 	}
-	/** ´Ë·½·¨ÒâË¼ÎªfragmentÊÇ·ñ¿É¼û ,¿É¼ûÊ±ºò¼ÓÔØÊı¾İ */
+	/** æ­¤æ–¹æ³•æ„æ€ä¸ºfragmentæ˜¯å¦å¯è§ ,å¯è§æ—¶å€™åŠ è½½æ•°æ® */
 	@Override
 	public void setUserVisibleHint(boolean isVisibleToUser) {
 		if (isVisibleToUser) {
-			//fragment¿É¼ûÊ±¼ÓÔØÊı¾İ
+			//fragmentå¯è§æ—¶åŠ è½½æ•°æ®
 			if(newsList !=null && newsList.size() !=0){
 				handler.obtainMessage(SET_NEWSLIST).sendToTarget();
 			}else{
@@ -65,7 +65,7 @@ public class NewsFragment extends Fragment {
 				}).start();
 			}
 		}else{
-			//fragment²»¿É¼ûÊ±²»Ö´ĞĞ²Ù×÷
+			//fragmentä¸å¯è§æ—¶ä¸æ‰§è¡Œæ“ä½œ
 		}
 		super.setUserVisibleHint(isVisibleToUser);
 	}

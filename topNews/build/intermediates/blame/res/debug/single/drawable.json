@@ -104,24 +104,24 @@
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/bg_row_head.xml"
     },
     {
-        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/ic_drawer_search.xml",
-        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/ic_drawer_search.xml"
-    },
-    {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/round_avatar_bg.xml",
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/round_avatar_bg.xml"
+    },
+    {
+        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/ic_drawer_search.xml",
+        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/ic_drawer_search.xml"
     },
     {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/small_image_holder_listpage.xml",
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/small_image_holder_listpage.xml"
     },
     {
-        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/ic_drawer_setting.xml",
-        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/ic_drawer_setting.xml"
-    },
-    {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/btn_tencent.xml",
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/btn_tencent.xml"
+    },
+    {
+        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/ic_drawer_setting.xml",
+        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/ic_drawer_setting.xml"
     },
     {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/btn_renren.xml",
@@ -176,12 +176,12 @@
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/image_holder_listpage_loading.xml"
     },
     {
-        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/right_drawer_top_count_bg.xml",
-        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/right_drawer_top_count_bg.xml"
-    },
-    {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/btn_sina.xml",
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/btn_sina.xml"
+    },
+    {
+        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/right_drawer_top_count_bg.xml",
+        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/right_drawer_top_count_bg.xml"
     },
     {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/dislike_line.xml",
@@ -200,12 +200,12 @@
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/right_drawer.xml"
     },
     {
-        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/image_holder_listpage.xml",
-        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/image_holder_listpage.xml"
-    },
-    {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/btn_back.xml",
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/btn_back.xml"
+    },
+    {
+        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/image_holder_listpage.xml",
+        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/image_holder_listpage.xml"
     },
     {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/channel_glide_night_bg.xml",

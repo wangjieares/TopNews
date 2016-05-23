@@ -2,6 +2,7 @@ package com.topnews.view;
 
 import com.topnews.R;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
@@ -11,6 +12,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
@@ -318,6 +320,7 @@ public class SwitchButton extends CompoundButton {
 	}
 
 	/** 传递触摸屏触摸事件 */
+	@TargetApi(Build.VERSION_CODES.FROYO)
 	@Override
 	public boolean onTouchEvent(MotionEvent ev) {
 		mVelocityTracker.addMovement(ev);

@@ -20,6 +20,12 @@ public class Welcome extends Activity {
 		initView();
 		initData();
 	}
+
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+	}
+
 	private void initData() {
 		start_anima = new AlphaAnimation(0.3f, 1.0f);
 		start_anima.setDuration(2000);

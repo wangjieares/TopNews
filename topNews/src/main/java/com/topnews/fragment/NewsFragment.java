@@ -15,9 +15,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class NewsFragment extends Fragment {
 	Activity activity;
@@ -48,7 +50,7 @@ public class NewsFragment extends Fragment {
 		if (isVisibleToUser) {
 			//fragment可见时加载数据
 			if(newsList !=null && newsList.size() !=0){
-				handler.obtainMessage(SET_NEWSLIST).sendToTarget();
+				handler.obtainMessage().sendToTarget();
 			}else{
 				new Thread(new Runnable() {
 					@Override
@@ -60,7 +62,7 @@ public class NewsFragment extends Fragment {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
-						handler.obtainMessage(SET_NEWSLIST).sendToTarget();
+						handler.obtainMessage(SET_NEWSLIST).sendToTarget();//return Message.obtain(this, what);
 					}
 				}).start();
 			}
@@ -76,6 +78,12 @@ public class NewsFragment extends Fragment {
 		// TODO Auto-generated method stub
 		View view = LayoutInflater.from(getActivity()).inflate(R.layout.news_fragment, null);
 		mListView = (ListView) view.findViewById(R.id.mListView);
+		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				Toast.makeText(getActivity(),"test"+position,Toast.LENGTH_LONG).show();
+			}
+		});
 		TextView item_textview = (TextView)view.findViewById(R.id.item_textview);
 		detail_loading = (ImageView)view.findViewById(R.id.detail_loading);
 		item_textview.setText(text);

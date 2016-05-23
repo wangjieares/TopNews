@@ -228,12 +228,12 @@
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/channel_glide_day_bg.xml"
     },
     {
-        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/popicon_listpage.xml",
-        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/popicon_listpage.xml"
-    },
-    {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/left_drawer_item_bg.xml",
         "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/left_drawer_item_bg.xml"
+    },
+    {
+        "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/popicon_listpage.xml",
+        "source": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/src/main/res/drawable/popicon_listpage.xml"
     },
     {
         "merged": "/home/wangjie/AndroidStudioProjects/TopNews/topNews/build/intermediates/res/merged/debug/drawable/btn_qq.xml",

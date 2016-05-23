@@ -73,9 +73,9 @@ public class MainActivity extends FragmentActivity {
 	private void initView() {
 		mColumnHorizontalScrollView =  (ColumnHorizontalScrollView)findViewById(R.id.mColumnHorizontalScrollView);
 		mRadioGroup_content = (LinearLayout) findViewById(R.id.mRadioGroup_content);
-		ll_more_columns = (LinearLayout) findViewById(R.id.ll_more_columns);
+		ll_more_columns = (LinearLayout) findViewById(R.id.ll_more_columns);//+
 		rl_column = (RelativeLayout) findViewById(R.id.rl_column);
-		button_more_columns = (ImageView) findViewById(R.id.button_more_columns);
+		button_more_columns = (ImageView) findViewById(R.id.button_more_columns);//
 		mViewPager = (ViewPager) findViewById(R.id.mViewPager);
 		shade_left = (ImageView) findViewById(R.id.shade_left);
 		shade_right = (ImageView) findViewById(R.id.shade_right);
